@@ -8,5 +8,5 @@ func Placeholders(len int) string {
 		return ""
 	}
 
-	return "? " + strings.Repeat(", ?", len-1) + ""
+	return "?" + strings.Repeat(", ?", len-1) + ""
 }
